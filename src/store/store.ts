@@ -1,0 +1,173 @@
+export type Movie = {
+  Title: string;
+  Year: string;
+  Poster: string;
+  Type: string;
+  Like: number;
+  Dislike: number;
+};
+
+const store: Movie[] = [
+  {
+    Title: "The good Will Hunting",
+    Year: "1997",
+    Poster: "../../assets/movie_poster/goodwill.jpg",
+    Type: "Drame",
+    Like: 100,
+    Dislike: 10,
+  },
+  {
+    Title: "Le Parrain",
+    Year: "1972",
+    Poster: "../../assets/movie_poster/thegodfather.jpg",
+    Type: "Crime",
+    Like: 10,
+    Dislike: 10,
+  },
+  {
+    Title: "Le Seigneur des anneaux 1",
+    Year: "2001",
+    Poster: "../../assets/movie_poster/lotr.jpg",
+    Type: "Fantastique",
+    Like: 100,
+    Dislike: 10,
+  },
+  {
+    Title: "Pulp Fiction",
+    Year: "1994",
+    Poster: "../../assets/movie_poster/pulpfiction.jpg",
+    Type: "Crime",
+    Like: 100,
+    Dislike: 10,
+  },
+  {
+    Title: "La Liste de Schindler",
+    Year: "1993",
+    Poster: "../../assets/movie_poster/schindlerlist.jpg",
+    Type: "Drame",
+    Like: 100,
+    Dislike: 10,
+  },
+  {
+    Title: "Le Silence des agneaux",
+    Year: "1991",
+    Poster: "../../assets/movie_poster/thesilenceofthelamb.jpg",
+    Type: "Thriller",
+    Like: 100,
+    Dislike: 10,
+  },
+  {
+    Title: "Forrest Gump",
+    Year: "1994",
+    Poster: "../../assets/movie_poster/forrestgump.jpg",
+    Type: "Drame",
+    Like: 100,
+    Dislike: 10,
+  },
+  {
+    Title: "La Guerre des étoiles",
+    Year: "1977",
+    Poster: "../../assets/movie_poster/starwars1.jpg",
+    Type: "Science-fiction",
+    Like: 100,
+    Dislike: 10,
+  },
+  {
+    Title: "Le Jour de l'indépendance",
+    Year: "1996",
+    Poster: "../../assets/movie_poster/indepenceday.jpg",
+    Type: "Science-fiction",
+    Like: 100,
+    Dislike: 10,
+  },
+  {
+    Title: "Jurassic Park",
+    Year: "1993",
+    Poster: "../../assets/movie_poster/jurrasicpark.jpg",
+    Type: "Aventure",
+    Like: 100,
+    Dislike: 10,
+  },
+  {
+    Title: "Le Monde de Nemo",
+    Year: "2003",
+    Poster: "../../assets/movie_poster/nemo.jpg",
+    Type: "Animation",
+    Like: 100,
+    Dislike: 10,
+  },
+  {
+    Title: "Le Roi Lion",
+    Year: "1994",
+    Poster: "../../assets/movie_poster/lionking.jpg",
+    Type: "Animation",
+    Like: 100,
+    Dislike: 10,
+  },
+  {
+    Title: "La Belle et la Bête",
+    Year: "1991",
+    Poster: "../../assets/movie_poster/beautyandthebest.jpg",
+    Type: "Animation",
+    Like: 100,
+    Dislike: 10,
+  },
+  {
+    Title: "Aladdin",
+    Year: "1992",
+    Poster: "../../assets/movie_poster/aladdin.jpg",
+    Type: "Animation",
+    Like: 100,
+    Dislike: 10,
+  },
+  {
+    Title: "Toy Story",
+    Year: "1995",
+    Poster: "../../assets/movie_poster/toystory.jpg",
+    Type: "Animation",
+    Like: 100,
+    Dislike: 10,
+  },
+  {
+    Title: "Shrek",
+    Year: "2001",
+    Poster: "../../assets/movie_poster/shrek.jpg",
+    Type: "Animation",
+    Like: 100,
+    Dislike: 10,
+  },
+  {
+    Title: "Le Seigneur des anneaux 2",
+    Year: "2002",
+    Poster: "../../assets/movie_poster/lotr2.jpg",
+    Type: "Fantastique",
+    Like: 100,
+    Dislike: 10,
+  },
+  {
+    Title: "Le Seigneur des anneaux 3",
+    Year: "2003",
+    Poster: "../../assets/movie_poster/lotr3.jpg",
+    Type: "Fantastique",
+    Like: 100,
+    Dislike: 10,
+  },
+  {
+    Title: "Pirates des Caraïbes 1",
+    Year: "2003",
+    Poster: "../../assets/movie_poster/piratesofthecarribean.jpg",
+    Type: "Aventure",
+    Like: 100,
+    Dislike: 10,
+  },
+  {
+    Title: "Matrix",
+    Year: "1999",
+    Poster: "../../assets/movie_poster/matrix.jpg",
+    Type: "Science-fiction",
+    Like: 100,
+    Dislike: 10,
+  },
+];
+
+export default store;
