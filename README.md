@@ -38,3 +38,5 @@ Cependant avec le lapse de temps de 2 semaines, sachant que j'ai mis au moins 1-
 En espérant que vous avez pu retrouvez l'essentiel des fonctionnalités souhaiter. 
 
 Bonne journée
+
+Spec : React 18, Typescript, Material UI 5.16
