@@ -1,15 +1,16 @@
 # Présentation de la mini application de film
 
-En arrivant sur la page d'accueil vous pouvez vous l'ensemble des films rangés dans les différentes catégories et une catégories tous les fims.
-Sur cette page vous pouvez naviguez librement et si tous les films ne pouvez pas etre affichés vous pouvez scroll dans une catégorie horizontallement (catégorie "tous les films" par exemple)
+En arrivant sur la page d'accueil vous pouvez voir l'ensemble des films rangés dans les différentes catégories et une catégories "tous les fims".
+Sur cette page vous pouvez naviguez librement et si tous les films ne pouvez pas etre affichés sur une ligne vous pouvez scroll dans une catégorie horizontallement (catégorie "tous les films" par exemple)
 
 Dans chaque carte vous retrouverez : 
+    - une image du film 
     - le titre du film
     - l'année de paution 
     - en haut a droite un bouton permettant d'accéder a la suppression 
     - un bouton like/dislike et sa jauge qui s'adapte. 
 
-Au survol de chaque titre de catégorie vous pourrez constastez une légère animation laissant à suggérer que c'est titre sont cliquable. Pour des raisons ergonimiques et UX les titres sont cliquables mais sur l'entiereté de la page est pas seulement sur les écritures. 
+Au survol de chaque titre de catégorie vous pourrez constastez une légère animation laissant à suggérer que c'est titre sont cliquable. Pour des raisons ergonimiques et UX les titres sont cliquables mais sur l'entiereté de la largeur de la page est pas seulement sur les écritures. 
 
 Si vous cliquez vous arriverais sur une nouvelle page, présentant tous les films de cette catégorie. 
 
@@ -18,7 +19,7 @@ Vous pourrez également changer de page à l'aide des boutons mis a disposition,
 
 Si vous cliquez sur le logo/le titre "movio" vous pourrez retournez sur la page d'accueil.
 
-Ainsi vous pourrez vous interesser à la dernière fonction que je n'ai pas mentionné. Le select en dessous du titre. Ici vous pourrez selectionner des catégories de films et valider votre choix. Ainsi vous serai rediriger vers la même page que quand vous cliquiais sur une catégorie, les titrees des catégories séléctionnes sont rappelés en haut et le fonctionnement est le même. 
+Ainsi vous pourrez vous interesser à la dernière fonction que je n'ai pas mentionné. Le select en dessous du titre. Ici vous pourrez selectionner des catégories de films et valider votre choix. Ainsi vous serai rediriger vers la même page que lorsque vous cliquez sur une catégorie, les titres des catégories séléctionnes sont rappelés en haut et le fonctionnement est le même. 
 
 Cette liste de film est récupéré dynamiquement. Cet a dire que si vous regardez la liste vous pourrez voir par exemple la catégorie "thriller" et si vous descendez  supprimer "Le silence des agneaux" (seul film dans cette catégorie). Le titre "thriller" premièrement disparait et cette catégorie disparait également de la sélection des filtres.
 
