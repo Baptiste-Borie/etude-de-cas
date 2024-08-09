@@ -27,3 +27,13 @@ Si vous voulez réinitialiser les films supprimez le seul moyen et d'actualiser 
 Amélioration possible :
 
 J'aurai aimé au lieu de donné une liste de films dans un .ts utilisé une API de film afin d'en récupérer en grand nombre. Je pense qu'au niveau propreté de code j'aurais également pu améliorer certaines choses. Il est fait exprès par exemple pour les styles d'avoir varié la facon de les déclarer afin que vous puissiez constaté que je suis à l'aise dans différente manière de faire. 
+
+J'aurai également aimé rajoute sur la page d'accueil des fleches sur a gauche et a droite de chaque catégorie afin d'aider a scroller, ainsi que faire un "drag and drop" pour qu'on puisse scroll facon tactile depuis son ordinateur. 
+
+J'ai également de rendre un rendu un "minimum beau" même si je trouve que cela laisse à désirer. 
+
+Cependant avec le lapse de temps de 2 semaines, sachant que j'ai mis au moins 1-2 soir à séléctionner la libraire imaginez la mise en page, et l'architecture générale de mon code, je suis tout de même fier de mon rendu. J'aurai également pu approfondir le projet si je m'y étais consacré la journée seulement, j'occupe un poste de développeur front-end actuellement par conséquent je ne pouvais travaillez que le soir. 
+
+En espérant que vous avez pu retrouvez l'essentiel des fonctionnalités souhaiter. 
+
+Bonne journée
