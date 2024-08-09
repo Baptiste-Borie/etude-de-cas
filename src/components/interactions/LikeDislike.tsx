@@ -60,7 +60,7 @@ const LikeDislike = ({ initialLike, initialDislike }: LikeDislikeType) => {
       <div style={{ display: "flex", flexDirection: "row", gap: "10px" }}>
         <div
           onClick={handleLike}
-          style={{ display: "flex", cursor: "pointer", alignItems: "center" }}
+          style={{ display: "flex", cursor: "pointer", alignItems: "center", gap: 2}}
         >
           {liked ? <ThumbUpAltIcon /> : <ThumbUpAltOutlinedIcon />}
           {like}
@@ -68,7 +68,7 @@ const LikeDislike = ({ initialLike, initialDislike }: LikeDislikeType) => {
         <div>|</div>
         <div
           onClick={handleDislike}
-          style={{ display: "flex", cursor: "pointer", alignItems: "center" }}
+          style={{ display: "flex", cursor: "pointer", alignItems: "center", gap: 2 }}
         >
           {disliked ? <ThumbDownAltIcon /> : <ThumbDownOffAltOutlinedIcon />}
           {dislike}

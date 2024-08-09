@@ -1,46 +1,29 @@
-# Getting Started with Create React App
+# Présentation de la mini application de film
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+En arrivant sur la page d'accueil vous pouvez vous l'ensemble des films rangés dans les différentes catégories et une catégories tous les fims.
+Sur cette page vous pouvez naviguez librement et si tous les films ne pouvez pas etre affichés vous pouvez scroll dans une catégorie horizontallement (catégorie "tous les films" par exemple)
 
-## Available Scripts
+Dans chaque carte vous retrouverez : 
+    - le titre du film
+    - l'année de paution 
+    - en haut a droite un bouton permettant d'accéder a la suppression 
+    - un bouton like/dislike et sa jauge qui s'adapte. 
 
-In the project directory, you can run:
+Au survol de chaque titre de catégorie vous pourrez constastez une légère animation laissant à suggérer que c'est titre sont cliquable. Pour des raisons ergonimiques et UX les titres sont cliquables mais sur l'entiereté de la page est pas seulement sur les écritures. 
 
-### `npm start`
+Si vous cliquez vous arriverais sur une nouvelle page, présentant tous les films de cette catégorie. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Ici par contre pas de scroll horizontale afin de respecter la consigne et c'est ici que le nombre d'item affiché par ligne est "responsive".
+Vous pourrez également changer de page à l'aide des boutons mis a disposition, et changer le nombre d'item également.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Si vous cliquez sur le logo/le titre "movio" vous pourrez retournez sur la page d'accueil.
 
-### `npm test`
+Ainsi vous pourrez vous interesser à la dernière fonction que je n'ai pas mentionné. Le select en dessous du titre. Ici vous pourrez selectionner des catégories de films et valider votre choix. Ainsi vous serai rediriger vers la même page que quand vous cliquiais sur une catégorie, les titrees des catégories séléctionnes sont rappelés en haut et le fonctionnement est le même. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Cette liste de film est récupéré dynamiquement. Cet a dire que si vous regardez la liste vous pourrez voir par exemple la catégorie "thriller" et si vous descendez  supprimer "Le silence des agneaux" (seul film dans cette catégorie). Le titre "thriller" premièrement disparait et cette catégorie disparait également de la sélection des filtres.
 
-### `npm run build`
+Si vous voulez réinitialiser les films supprimez le seul moyen et d'actualiser la page. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Amélioration possible :
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+J'aurai aimé au lieu de donné une liste de films dans un .ts utilisé une API de film afin d'en récupérer en grand nombre. Je pense qu'au niveau propreté de code j'aurais également pu améliorer certaines choses. Il est fait exprès par exemple pour les styles d'avoir varié la facon de les déclarer afin que vous puissiez constaté que je suis à l'aise dans différente manière de faire. 

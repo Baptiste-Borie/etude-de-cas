@@ -24,33 +24,34 @@ const CategoryPage: React.FC<CategoryPageType> = ({
   const currentFilms = films.slice(indexOfFirstItem, indexOfLastItem);
 
   return (
-    <div className="page">
+    <>
       <h1>{categories?.join(", ") || "Aucune catégorie sélectionnée"}</h1>
-
-      <div className="container">
-        {currentFilms.map((movie, index) => (
-          <VideoCard
-            key={index}
-            title={movie.Title}
-            year={movie.Year}
-            poster={movie.Poster}
-            like={movie.Like}
-            dislike={movie.Dislike}
-            onDelete={() => handleDelete(movie.Title)}
+      <div className="page">
+        <div className="container">
+          {currentFilms.map((movie, index) => (
+            <VideoCard
+              key={index}
+              title={movie.Title}
+              year={movie.Year}
+              poster={movie.Poster}
+              like={movie.Like}
+              dislike={movie.Dislike}
+              onDelete={() => handleDelete(movie.Title)}
+            />
+          ))}
+        </div>
+        <div className="pagination">
+          <Pagination
+            indexOfLastItem={indexOfLastItem}
+            films={films}
+            currentPage={currentPage}
+            setCurrentPage={setCurrentPage}
+            itemsPerPage={itemsPerPage}
+            setItemsPerPage={setItemsPerPage}
           />
-        ))}
+        </div>
       </div>
-      <div className="pagination">
-        <Pagination
-          indexOfLastItem={indexOfLastItem}
-          films={films}
-          currentPage={currentPage}
-          setCurrentPage={setCurrentPage}
-          itemsPerPage={itemsPerPage}
-          setItemsPerPage={setItemsPerPage}
-        />
-      </div>
-    </div>
+    </>
   );
 };
 
